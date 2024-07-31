@@ -10,14 +10,15 @@ namespace TMS_9_PracticeOOP.Persons
     {
         public void Main()
         {
-            Person Person = new Person(age: 33, name: "Vasyl");
+            Person Person = new Person(33, "Vasyl");
             Person.Greet();
-            Student Student = new Student(age: 22, name: "Sara");
+            Student Student = new Student(22, "Sara");
             Student.Greet();
             Student.ShowAge();
             Teacher Teacher = new Teacher(54, "John");
             Teacher.Greet();
             Teacher.Explain();
+
         }
     }
 }

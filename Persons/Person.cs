@@ -23,7 +23,7 @@ namespace TMS_9_PracticeOOP.Persons
         {
             if (age < 0)
             {
-                this.age = age;
+                this.age = 0;
             }
             else
                 Console.WriteLine(age);

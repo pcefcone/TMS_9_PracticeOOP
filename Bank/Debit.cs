@@ -25,6 +25,18 @@ namespace TMS_9_PracticeOOP.Bank
             Balance = Balance * InterestRate;
             Console.WriteLine($"Your balance is {Balance}");
         }
+
+        public void Credit(int years)
+        {
+            int count = 1;
+            int countYears = years;
+            while (count < countYears)
+            {
+                Balance *= InterestRate;
+                countYears--;
+            }
+            Console.WriteLine($"After {years} years, your balance will be {Math.Round(Balance, 2)}");
+        }
     }
 
 }
