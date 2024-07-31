@@ -16,7 +16,8 @@ namespace TMS_9_PracticeOOP.Persons
             Student.Greet();
             Student.ShowAge();
             Teacher Teacher = new Teacher(54, "John");
-
+            Teacher.Greet();
+            Teacher.Explain();
         }
     }
 }
